@@ -1,0 +1,28 @@
+Arrays
+Vector (Dynamic Array)
+
+More DS
+---------
+- Linked List
+- Stack
+- Queue
+- Trees (Binary Tree & BST)
+- Heaps (Priority Queue)
+- Graphs
+- Hashtables
+- Tries
+
+
+Advance DS:
+- Segment Trees
+- Fenwick Tree
+- AVL Tree
+
+
+Why do we need so many DS?
+- 	each dc has own speciality
+-	depending upon problem
+-	insertion,deletion, 	searching, ordering
+-	space and time complexity
+
+learn Implementation of each structure + STL implementation

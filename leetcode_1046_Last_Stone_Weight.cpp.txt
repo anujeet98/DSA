@@ -1,0 +1,27 @@
+//https://leetcode.com/problems/last-stone-weight/
+class Solution {
+public:
+    int lastStoneWeight(vector<int>& stones) {
+        make_heap(stones.begin(),stones.end());
+        while(stones.size()>1){
+            
+            int s1=stones[0];
+            pop_heap(stones.begin(), stones.end());
+            stones.pop_back();
+            
+            int s2=stones[0];
+            pop_heap(stones.begin(), stones.end());
+            stones.pop_back();
+            
+            int new_stone=s1-s2;
+            if(new_stone){
+                stones.push_back(new_stone);
+                push_heap(stones.begin(),stones.end());
+            }
+        }
+        if(stones.size()==0)
+            return 0;
+        else
+            return stones[0];
+    }
+};

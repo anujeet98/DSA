@@ -1,0 +1,11 @@
+-----------------
+some more concepts
+-------------------
+
+Const Data Members = Once Init, they can't change their value
+
+Initialization List = to initialize constant as well as other data meters
+
+Const parameters = parameters that don't get updated inside function
+
+Const Functions = funct which do not update data members of the class
